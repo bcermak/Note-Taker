@@ -4,6 +4,17 @@ const fs = require('fs');
 const app = express();
 
 const PORT = 8082;
+
+function handleRequest(request, response) {
+
+    // Send the below string to the client when the user visits the PORT URL
+    response.end("It Works!! Path Hit: " + request.url);
+  }
+  
+  // Use the Node HTTP package to create our server.
+  // Pass the handleRequest function to empower it with functionality.
+  const server = http.createServer(handleRequest);
+
 //begin express
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
