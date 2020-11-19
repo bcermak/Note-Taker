@@ -16,6 +16,8 @@
 
 ## Deployed Application ##
 
+Heroku: https://notetakerrrrrr.herokuapp.com/notes
+
 GitHub Repository: https://github.com/bcermak/Note-Taker
 
 Step 1 - 
