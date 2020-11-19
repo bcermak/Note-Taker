@@ -1,8 +1,8 @@
-const $noteTitle = document.querySelector(".note-title");
-const $noteText = document.querySelector(".note-textarea");
-const $saveNoteBtn = document.querySelector(".save-note");
-const $newNoteBtn = document.querySelector(".new-note");
-const $noteList = document.querySelector(".list-container .list-group");
+const $noteTitle = $(".note-title");
+const $noteText = $(".note-textarea");
+const $saveNoteBtn = $(".save-note");
+const $newNoteBtn = $(".new-note");
+const $noteList = $(".list-container .list-group");
 
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
